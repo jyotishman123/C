@@ -10,7 +10,12 @@ int main()
      int *pointer = &age;
      int _age = *pointer;
 
-     printf("%d",_age);
+     printf("%d\n",_age);
+     printf("%p\n", &age);
+     printf("%p\n", &pointer);
+     printf("The pointer value is %p\n", pointer);
+     printf("The pointer value is %d\n", *pointer);
+
 
     return 0;  
 }
