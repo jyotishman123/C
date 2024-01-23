@@ -29,7 +29,7 @@ int main()
     int *pointer = &num;
     int *_pointer = &_num;
 
-    printf("%u,%u\n",pointer, _pointer);
+    printf("%u,%u\n",pointer, _pointer); 
     printf("difference = %u\n", pointer-_pointer);
     _pointer = &num;
     printf("comparision = %u\n", pointer == _pointer);
